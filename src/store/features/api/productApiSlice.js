@@ -20,6 +20,7 @@ export const productApiSlice = apiService.injectEndpoints({
           "product",
           new Blob([JSON.stringify(product)], { type: "application/json" })
         );
+
         formData.append("imageFile", imageFile);
 
         return {

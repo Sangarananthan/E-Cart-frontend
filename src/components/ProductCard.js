@@ -65,7 +65,7 @@ export default function ProductCard({ product }) {
 
           {product.category && (
             <Badge variant="secondary" className="text-xs">
-              {product.category}
+              {product.category.name}
             </Badge>
           )}
 
